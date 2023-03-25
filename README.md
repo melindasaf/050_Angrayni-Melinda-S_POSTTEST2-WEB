@@ -26,3 +26,7 @@ Input data form dari posttest 1
 <br>
 <br>
 Data form tsb kemudian disimpan ke dalam session storage
+![session storage](https://user-images.githubusercontent.com/93468350/227739439-030c2cd8-2f90-4630-b652-5de5fd5cad8e.png)
+<br>
+<br>
+Menampilkan data yang telah diinput dari session storge
