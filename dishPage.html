@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Waroeng Dietary</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ee6e997122.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Swipper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Start Header Section -->
+    <header>
+        <a href="#" class="logo">
+            <i class="fas-fa untensils"></i>D'Waroeng Dietary
+            <h5>Welcome Aboard, 
+            <span id="nama"></span>!👋🏻</h5>
+        </a>
+
+        <!-- Start Navbar -->
+        <nav class="navbar">
+            <a class="active" href="indexPage.html">Home</a>
+            <a href="aboutPage.html">About</a>
+            <a href="dishPage.html">Product</a>
+            <a href="menuPage.html">Menu</a>
+            <a href="reviewPage.html">Review</a>
+            <a href="order.html">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="data.html" class="fas fa-shopping-cart"></a>
+            <a id="logout-btn" onclick="return confirm('Apakah anda yakin ingin keluar?')" class="fas fa-right-from-bracket"></a>
+        </div>
+        <!-- End Navbar -->
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Search Form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- End Search Form -->    
+    
+    <!-- Start Product Section -->
+    <section class="dishes" id="dishes">
+        <h1 class="heading">our product</h1>
+        <h3 class="sub-heading">Our Product</h3>
+        <h1 class="heading">our product</h1>
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/product1.png" alt="Personal">
+                <h3>Healthy Personal Package</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <span>Ingin menjalani hidup sehat tanpa harus repot memasak? Kami punya solusinya untuk Anda! Dengan Healthy Personal Package, 
+                    hidup sehat bisa menjadi lebih mudah dan praktis. Paket makanan sehat personal kami dirancang khusus untuk memenuhi kebutuhan 
+                    nutrisi Anda secara optimal, dengan bahan-bahan alami dan segar yang berkualitas. Dalam setiap paket, Anda akan mendapatkan 
+                    hidangan sehat yang lezat dan memenuhi kebutuhan gizi Anda</span>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/product2.png" alt="Weight Loss">
+                <h3>Weight Loss Program</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>Seringkali orang memiliki persepsi yang keliru tentang diet, seperti menganggap bahwa makanan diet tidak enak, mahal, sulit, dan 
+                    menyiksa. Namun, D'Waroeng Dietary hadir untuk memberikan solusi mudah bagi masyarakat Indonesia untuk menjalani gaya hidup sehat. 
+                    Melalui Program Menurunkan Berat Badan, kami membuktikan bahwa diet bisa dilakukan dengan mudah, dengan biaya yang terjangkau, dan 
+                    dengan hidangan yang lezat dan menyenangkan.</span>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/product3.png" alt="Weight Loss Protein+">
+                <h3>Weight Loss Protein+</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>Ingin menurunkan berat badan secara sehat dan efektif tanpa merasa lapar dan kehilangan massa otot? Kami punya solusinya untuk Anda! 
+                    Dengan Weight Loss Protein+, Anda akan merasakan manfaat nutrisi dari protein dengan menu makanan yang lezat dan memenuhi 
+                    kebutuhan gizi Anda. Dalam setiap paket, Anda akan mendapatkan menu makanan yang variatif dan mengenyangkan, dengan porsi yang tepat dan 
+                    kandungan nutrisi yang optimal. Kami selalu mempertimbangkan preferensi dan kebutuhan nutrisi Anda, sehingga Anda bisa menikmati hidangan 
+                    sehat dengan pilihan rasa yang bervariasi.</span>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Product Section -->
+
+    <!-- Start Pricelist Section -->
+    <br> <br>
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading">Pricelist</h3>
+        <h1 class="heading">Pricelist</h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/price1.jpg" alt="Paket A">
+                <h3>Paket A</h3>
+                <span>1x Makan</span><br>
+                <span>(1x Kirim Setiap Hari)</span><br>
+                <h3>IDR. 55.000,-</h3>
+                <h3>(Harga Per Porsi)</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/price2.jpg" alt="Paket B">
+                <h3>Paket B</h3>
+                <span>2x Makan</span><br>
+                <span>(1x Kirim Setiap Hari)</span><br>
+                <h3>IDR. 52.500,-</h3>
+                <h3>(Harga Per Porsi)</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/price3.jpg" alt="Paket C">
+                <h3>Paket C</h3>
+                <span>2x Makan</span><br>
+                <span>(2x Kirim Setiap Hari)</span><br>
+                <h3>IDR. 55.000,-</h3>
+                <h3>(Harga Per Porsi)</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/price4.jpg" alt="Paket D">
+                <h3>Paket D</h3>
+                <span>3x Makan</span><br>
+                <span>(2x Kirim Setiap Hari)</span><br>
+                <h3>IDR. 50.000,-</h3>
+                <h3>(Harga Per Porsi)</h3>
+            </div>
+
+        </div>
+    </section>
+    <!-- End Pricelist Section -->
+
+        <!-- Custom JS file -->
+        <script src="js/script.js"></script>
+        <script src="js/index.js"></script>
+
+        <!-- Swipper.js -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="js/swiper.js"></script>
+
+    <!-- AKhir Halaman Web -->
+    <div id="container">
+        <div class="footer">
+            Copyright © 2023  ||
+            Created by Angrayni Melinda Safitri
+        </div>
+     </div>
+
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Waroeng Dietary</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ee6e997122.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Swipper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Start Header Section -->
+    <header>
+        <a href="#" class="logo">
+            <i class="fas-fa untensils"></i>D'Waroeng Dietary
+            <h5>Welcome Aboard, 
+            <span id="nama"></span>!👋🏻</h5>
+        </a>
+
+        <!-- Start Navbar -->
+        <nav class="navbar">
+            <a class="active" href="indexPage.html">Home</a>
+            <a href="dishPage.html">Product</a>
+            <a href="aboutPage.html">About</a>
+            <a href="menuPage.html">Menu</a>
+            <a href="reviewPage.html">Review</a>
+            <a href="order.html">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="data.html" class="fas fa-shopping-cart"></a>
+            <a id="logout-btn" onclick="return confirm('Apakah anda yakin ingin keluar?')" class="fas fa-right-from-bracket"></a>
+        <!-- End Navbar -->
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Search Form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- End Search Form -->    
+    
+    <!-- Start Order Section -->
+    <section class="order" id="order">
+        <h1 class="heading">Isi Form Konsultasi!</h1>
+        <h3 class="sub-heading">ORDER HERE</h3>
+        <h1 class="heading">Isi Form Konsultasi!</h1>
+        <div class="kiri-kanan">
+            <!-- Form -->
+            <form id="myForm">
+            <div class="kiri">
+                <div class="form">
+                    <label for="name">Nama  :</label>
+                    <input type="text" id="name" class="input" name="name" required>
+                </div>
+                <div class="form">
+                    <label for="birth">Tanggal Lahir  :</label>
+                    <input type="date" id="birth" class="input" name="birth" required>
+                <div class="email">
+                    <label for="email">Email  :</label>
+                    <input type="email" id="email" class="input" name="email" required>
+                </div>
+                <div class="form">
+                    <label for="gender">Jenis Kelamin  :</label>
+                    <label><input type="radio" id="male" name="gender" value="laki-laki" class="opsi" required/> Laki-laki</label>
+                    <label><input type="radio" id="female" name="gender" value="perempuan" class="opsi" required/> Perempuan</label>
+                </div>
+                <div class="form">
+                    <label for="phone">No. HP  :</label>
+                    <input type="text" id="phone" class="input" name="phone" required>
+                </div>
+                <div class="form">
+                    <label for="city">Domisili (Kota)  :</label>
+                        <select name="city" style="border: 1.5px solid" class="city" id="city" required>
+                            <option value="">-- Pilih Kota --</option>
+                            <option value="balikpapan" >Balikpapan</option>
+                            <option value="samarinda" >Samarinda</option>
+                            <option value="bontang" >Bontang</option>
+                            <option value="penajam" >Penajam</option>
+                            <option value="lainnya" >Lainnya</option>
+                        </select>
+                </div>
+                <div class="form">
+                    <label for="interests">Tujuan Diet  :</label>
+                    <label><input type="checkbox" id="tujuan1" name="interests" class="check" value="Lose Weight"/>Lose Weight </label>
+                    <label><input type="checkbox" id="tujuan2" name="interests" class="check" value="Pola Makan Sehat" />Pola Makan Sehat</label>
+                    <label><input type="checkbox" id="tujuan3" name="interests" class="check" value="Isolasi Mandiri"/>Isolasi Mandiri</label>
+                    <label><input type="checkbox" id="tujuan4" name="interests" class="check" value="Kondisi Medis"/>Kondisi Medis</label>
+                    <label><input type="checkbox" id="tujuan5" name="interests" class="check" value="Pasca Operasi"/>Pasca Operasi</label>
+                    <label><input type="checkbox" id="tujuan6" name="interests" class="check" value="Lainnya"/>Lainnya</label>
+                </div>
+                <div class="form">
+                    <label for="riwayat">Riwayat Penyakit  :</label>
+                    <label><input type="checkbox" id="riwayat1" name="riwayat" value="Hipertensi"/>Hipertensi</label>
+                    <label><input type="checkbox" id="riwayat2" name="riwayat" value="Diabetes"/>Diabetes</label>
+                    <label><input type="checkbox" id="riwayat3" name="riwayat" value="Asam Urat Tinggi"/>Asam Urat Tinggi</label>
+                    <label><input type="checkbox" id="riwayat4" name="riwayat" value="Kolesterol Tinggi"/>Kolesterol Tinggi</label>
+                    <label><input type="checkbox" id="riwayat5" name="riwayat" value="Gerd"/>Gerd</label>
+                    <label><input type="checkbox" id="riwayat6" name="riwayat" value="Lainnya"/>Lainnya</label>
+                </div>
+                <div class="form">
+                    <label for="alergi">Pantangan & Alergi  :</label>
+                    <textarea name="alergi" cols="40" rows="5" id="alergi" class="kotakteks" style="border: 1.5px solid"></textarea>
+                </div><br>
+                <button type="submit" onclick="myalert()" class="btn">Submit</button><br>
+            </form>
+            </div>
+            <!-- End Form -->
+
+            <script>
+                const form = document.getElementById("myForm");
+
+                form.addEventListener("submit", function(event) {
+                    event.preventDefault();
+
+                    const name = document.getElementById("name").value;
+                    const birth = document.getElementById("birth").value;
+                    const email = document.getElementById("email").value;
+                    const gender = document.querySelector('input[name="gender"]:checked').value;
+                    const phone = document.getElementById("phone").value;
+                    const city = document.getElementById("city").value;
+                    const interests = Array.from(document.querySelectorAll('input[name="interests"]:checked')).map(e => e.value);
+                    const riwayat = Array.from(document.querySelectorAll('input[name="riwayat"]:checked')).map(e => e.value);
+                    const alergi = document.getElementById("alergi").value;
+
+
+                    let formData = {
+                        name: name,
+                        birth: birth,
+                        email: email,
+                        gender: gender,
+                        phone: phone,
+                        city: city,
+                        interests: interests,
+                        riwayat: riwayat,
+                        alergi: alergi
+                    };
+
+                    let dataArray = JSON.parse(sessionStorage.getItem("formDataArray")) || [];
+
+                    dataArray.push(formData);
+
+                    sessionStorage.setItem("formDataArray", JSON.stringify(dataArray));
+
+                    alert("Data berhasil dikirim!");
+                    form.reset();
+                    window.location.href = "data.html";
+                });
+            </script>
+
+        </div>
+    </section>
+    <!-- End Order Section -->
+
+        <!-- Custom JS file -->
+        <script src="js/script.js"></script>
+        <script src="js/index.js"></script>
+        <script src="js/form.js"></script>
+
+    <!-- AKhir Halaman Web -->
+    <div id="container">
+        <div class="footer">
+            Copyright © 2023  ||
+            Created by Angrayni Melinda Safitri
+        </div>
+    </div>
+
+</body>
+
+</html>

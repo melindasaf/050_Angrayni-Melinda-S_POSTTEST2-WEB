@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Waroeng Dietary</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ee6e997122.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
+
+    <!-- Swipper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Start Header Section -->
+    <header>
+        <a href="#" class="logo">
+            <i class="fas-fa untensils"></i>D'Waroeng Dietary
+            <h5>Welcome Aboard, 
+            <span id="nama"></span>!👋🏻</h5>
+        </a>
+
+        <!-- Start Navbar -->
+        <nav class="navbar">
+            <a class="active" href="indexPage.html">Home</a>
+            <a href="dishPage.html">Product</a>
+            <a href="aboutPage.html">About</a>
+            <a href="menuPage.html">Menu</a>
+            <a href="reviewPage.html">Review</a>
+            <a href="order.html">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a id="logout-btn" onclick="return confirm('Apakah anda yakin ingin keluar?')" class="fas fa-right-from-bracket"></a>
+        <!-- End Navbar -->
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Search Form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- End Search Form -->    
+
+    <!-- Start Data Section -->
+    <section class="order" id="order">
+        <h1 class="heading">Permintaan Terkirim</h1><br>
+        <h3 class="sub-heading">YOUR ORDER</h3>
+        <h1 class="heading">Permintaan Terkirim</h1><br><br>
+    
+    <div id="dataContainer"></div>
+    
+    <!-- Custom JS file -->
+    <script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/form.js"></script>
+
+</body>
+</html>

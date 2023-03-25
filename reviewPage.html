@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Waroeng Dietary</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ee6e997122.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Swipper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Start Header Section -->
+    <header>
+        <a href="#" class="logo">
+            <i class="fas-fa untensils"></i>D'Waroeng Dietary
+            <h5>Welcome Aboard, 
+            <span id="nama"></span>!👋🏻</h5>
+        </a>
+
+        <!-- Start Navbar -->
+        <nav class="navbar">
+            <a class="active" href="indexPage.html">Home</a>
+            <a href="aboutPage.html">About</a>
+            <a href="dishPage.html">Product</a>
+            <a href="menuPage.html">Menu</a>
+            <a href="reviewPage.html">Review</a>
+            <a href="order.html">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="data.html" class="fas fa-shopping-cart"></a>
+            <a id="logout-btn" onclick="return confirm('Apakah anda yakin ingin keluar?')" class="fas fa-right-from-bracket"></a>
+        </div>
+        <!-- End Navbar -->
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Search Form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- End Search Form -->  
+
+    <!-- Start Review Section -->
+    <section class="review" id="review">
+        <h1 class="heading">what they say</h1>
+        <h3 class="sub-heading">Customer's Review</h3>
+        <h1 class="heading">what they say</h1>
+
+        <div class="swiper-container review-slider">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profil_icon.jpg" alt="review">
+                        <div class="user-info">
+                            <h3>Fionna</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <p>Berhasil jalanin hidup sehat bonus turun bb 19kg dalam 2 bulan. Dibantu sama menu catering dari D'Waroeng Dietary
+                        yang gak ngebosenin dan menunya sangat bervarian!</p>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profil_icon.jpg" alt="review">
+                        <div class="user-info">
+                            <h3>Astri</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <p>Menunya beneran enak, jadi gak ngerasa seperti diet. Dengan berat badan 80 kg, Sekarang sudah berhasil turun jadi 66-67 kg.
+                        Walau sudah gak program diet lagi, tapi tetap langganan daily catring.
+                    </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profil_icon.jpg" alt="review">
+                        <div class="user-info">
+                            <h3>Niluh Farasya</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <p>Makasih buat makanan diet tapi tetep berasa, yg namanya nasi padangnya enak banget keterlaluan menu trakhir hari jumat juga enak banget. 
+                        BB aku sekarang sudah ideal, padahal masih suka cheating. ga bikin lemes dietnya</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profil_icon.jpg" alt="review">
+                        <div class="user-info">
+                            <h3>Arnaldo</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <p>Gara-gara liat badan di cermin mulai ga kondisif, mutusin diet BB dari 109,6 jadi 84,2 kg selama 3-4 bulan! Suppport makanan dari D'Waroeng juga
+                        beneran ngebantu, aku jadi ga bosen ngejalanin diet.</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/profil_icon.jpg" alt="review">
+                        <div class="user-info">
+                            <h3>Adam</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <p>Makanannya kaya bukan makanan diet, terus iseng cobain yg mingguan awalnya, makanannya enak bgt ga nyiksa,
+                         ga kerasa lagi diet dan surprisingly bisa turun berat badannya terus berlanjut sampe yang bulanan sampe akhirnya turun</p>
+                </div>
+
+        </div>
+    </section>
+    <!-- End Review Section -->
+
+        <!-- Custom JS file -->
+        <script src="js/script.js"></script>
+        <script src="js/index.js"></script>
+
+        <!-- Swipper.js -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="js/swiper.js"></script>
+
+    <!-- AKhir Halaman Web -->
+    <footer id="footer">
+        <p>Copyright © 2023  ||  Created by Angrayni Melinda Safitri</p>
+    </footer>
+        
+</body>
+
+</html>

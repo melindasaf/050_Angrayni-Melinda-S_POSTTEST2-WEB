@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D'Waroeng Dietary</title>
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/ee6e997122.js" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Swipper.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <!-- Start Header Section -->
+    <header>
+        <a href="#" class="logo">
+            <i class="fas-fa untensils"></i>D'Waroeng Dietary
+            <h5>Welcome Aboard, 
+            <span id="nama"></span>!👋🏻</h5>
+        </a>
+
+        <!-- Start Navbar -->
+        <nav class="navbar">
+            <a class="active" href="indexPage.html">Home</a>
+            <a href="aboutPage.html">About</a>
+            <a href="dishPage.html">Product</a>
+            <a href="menuPage.html">Menu</a>
+            <a href="reviewPage.html">Review</a>
+            <a href="order.html">Order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="data.html" class="fas fa-shopping-cart"></a>
+            <a id="logout-btn" onclick="return confirm('Apakah anda yakin ingin keluar?')" class="fas fa-right-from-bracket"></a>
+        </div>
+        <!-- End Navbar -->
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Start Search Form -->
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <!-- End Search Form -->    
+
+    <!-- Start Menu Section -->
+    <section class="menu" id="menu">
+        <h1 class="heading">today's speciality</h1>
+        <h3 class="sub-heading">Our Menu</h3>
+        <h1 class="heading">today's speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Indonesian Food</h3>
+                    <p>Ayam Betutu With Nasi Goreng Bali + Teri Kacang</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu5.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Indonesian food</h3>
+                    <p>Soto Betawi Ayam with Uduk Brown Rice + Kering Kentang</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Thailand Food</h3>
+                    <p> Baked Dory with Tom Yum Pasta free Sauteed Mushroom</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu6.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Indonesian Food</h3>
+                    <p>Lontong Sayur + Half Balado Egg</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Japanese Food</h3>
+                    <p>Udon Carbonara with Baked Chicken+ Croutons</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu12.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Indonesian Food</h3>
+                    <p>Mac Diet Panas Special + Scramble Egg</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu10.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Japanese Food</h3>
+                    <p>Healthy Japanese Sushi Roll + Diet Chicken Katsu</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu11.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Korean Food</h3>
+                    <p>Cheese Buldak Chicken with Korean Rice n Bean + Odeng and Sweet Potato</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu9.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Singaporean Food</h3>
+                    <p>Asiatique Dory with Hainanese Red Rice + Crispy Broccoli</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Menu Section -->
+
+        <!-- Custom JS file -->
+        <script src="js/script.js"></script>
+        <script src="js/index.js"></script>
+
+        <!-- Swipper.js -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+        <script src="js/swiper.js"></script>
+
+    <!-- AKhir Halaman Web -->
+    <div id="container">
+        <div class="footer">
+            Copyright © 2023  ||
+            Created by Angrayni Melinda Safitri
+        </div>
+    </div>
+
+</body>
+
+</html>
