@@ -16,3 +16,7 @@ Login dengan Akun yang telah didaftar
 <br>
 <br>
 Menampilkan nama user yang ada di dalam local storage
+![index](https://user-images.githubusercontent.com/93468350/227739226-7996f4ab-0c2e-4b2c-b3c2-fb85cccd05b9.png)
+<br>
+<br>
+Input data form dari posttest 1
