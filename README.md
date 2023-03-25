@@ -30,3 +30,4 @@ Data form tsb kemudian disimpan ke dalam session storage
 <br>
 <br>
 Menampilkan data yang telah diinput dari session storge
+![output form](https://user-images.githubusercontent.com/93468350/227739607-8160650f-93d6-499c-bc08-67f08b50584b.png)
