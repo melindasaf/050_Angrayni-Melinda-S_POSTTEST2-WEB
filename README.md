@@ -12,3 +12,7 @@ Data akun yang telah diinput dimasukkan ke dalam localstorage
 <br>
 <br>
 Login dengan Akun yang telah didaftar
+![login2](https://user-images.githubusercontent.com/93468350/227739148-02d3802b-93ed-498b-9145-515265950e00.png)
+<br>
+<br>
+Menampilkan nama user yang ada di dalam local storage
