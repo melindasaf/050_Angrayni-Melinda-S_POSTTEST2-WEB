@@ -20,3 +20,9 @@ Menampilkan nama user yang ada di dalam local storage
 <br>
 <br>
 Input data form dari posttest 1
+![form 1](https://user-images.githubusercontent.com/93468350/227739364-42c865a8-5917-4239-a96d-71056ce05a4f.png)
+![form 2](https://user-images.githubusercontent.com/93468350/227739361-92209168-25d0-4623-b154-99a98602f470.png)
+![form 3](https://user-images.githubusercontent.com/93468350/227739363-3b8c2479-f8ce-48dd-beec-6b9b9a771b30.png)
+<br>
+<br>
+Data form tsb kemudian disimpan ke dalam session storage
